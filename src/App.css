@@ -1,0 +1,62 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-color: #b6dcfd;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.signinContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperContainer {
+  padding-bottom: 10%;
+}
+
+.todoInput {
+  width: 30%;
+  margin-top: 3%;
+  padding: 10px 10px;
+}
+
+.todoAddBtn {
+  padding: 10px 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .todoInput {
+    width: 30%;
+    margin-top: 3%;
+    padding: 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .todoInput {
+    width: 40%;
+    margin-top: 3%;
+    padding: 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .todoInput {
+    width: 50%;
+    margin-top: 3%;
+    padding: 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .todoInput {
+    width: 60%;
+    margin-top: 3%;
+    padding: 10px 10px;
+  }
+}
